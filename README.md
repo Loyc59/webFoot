@@ -1,6 +1,7 @@
 # WebFoot
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.5.
+
 To install Angular CLI > npm i -g @angular/cli
 
 ## Development server
