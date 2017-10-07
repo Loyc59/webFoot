@@ -1,0 +1,19 @@
+.agenda {
+    height: 100vh;
+    background-color:aqua; /* TODO à changer */
+}
+
+.resultats {
+    height: 100vh;
+    background-color:rgb(0, 255, 85); /* TODO à changer */
+}
+
+.classement {
+    height: 75vh;
+    background-color:rgb(255, 115, 0); /* TODO à changer */
+}
+
+.sponsor {
+    height: 25vh;
+    background-color:rgb(255, 0, 106); /* TODO à changer */
+}
