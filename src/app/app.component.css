@@ -1,15 +1,7 @@
-.agenda {
+.column {
     height: 100vh;
 }
 
-.resultats {
-    height: 100vh;
-}
-
-.classement {
-    height: 75vh;
-}
-
-.sponsor {
-    height: 25vh;
+.sponsor-img {
+    max-width: 100%;
 }
