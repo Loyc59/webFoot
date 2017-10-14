@@ -1,0 +1,12 @@
+<p>
+  L'idée est de venir écraser ce fichier avec la partie AGENDA du batch 2
+  <div id="topBar"> <a href ="#" onclick="load_home()"> HOME </a> </div>
+  <div id ="content"> </div>
+  <script>
+      function load_home(){
+            document.getElementById("content").innerHTML='<object type="type/html" data="home.html" ></object>';
+  }
+  </script></p>
+<p>
+  Il faut également ajouter une fois pour toutes le style associé avec l'agenda dans le fichier agenda.component.css
+</p>
