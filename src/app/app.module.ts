@@ -22,9 +22,6 @@ const appRoutes: Routes = [
   { path: 'fem', component: FemComponent },
   { path: 'vet7', component: Vet7Component },
   { path: 'vet11', component: Vet11Component },
-  { path: 'u111', component: U111Component },
-  { path: 'u112', component: U112Component },
-  { path: 'u13', component: U13Component },
   { path: 'u15', component: U15Component },
   { path: 'u17', component: U17Component },
 ];

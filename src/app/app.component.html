@@ -1,27 +1,38 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-4 column">
-      <p align="center"> Resultats </p>
       <app-resultats></app-resultats>
     </div>
     <div class="col-md-4 column">
-      <p align="center"> Agenda </p>
       <app-agenda></app-agenda>
     </div>
     
     <div class="col-md-4 column">
-      <div class="row" style="height: 85vh">
-      	<p align="center"> Classements </p>
+      <div class="row" style="height: 60vh">
         <router-outlet></router-outlet>
       </div>
       <div class="row" style="height: 15vh">
         <div class="col-md-12">
           <div class="row">
-            <div class="col-md-6">
-              <img class="sponsor-img" [src]="'assets/logo/' + sponsors1[indexSponsor1]"/>
+            <div class="col-md-2">
             </div>
-            <div class="col-md-6">
-              <img class="sponsor-img" [src]="'assets/logo/' + sponsors2[indexSponsor2]"/>
+            <div align="center" class="col-md-8">
+	       <img class="sponsor-img" [src]="'assets/logo/' + sponsors1[indexSponsor1]"/>
+            </div>
+            <div class="col-md-2">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="height: 15vh">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div align="center" class="col-md-8">
+	       <img class="sponsor-img" [src]="'assets/logo/' + sponsors2[indexSponsor2]"/>
+            </div>
+            <div class="col-md-2">
             </div>
           </div>
         </div>
